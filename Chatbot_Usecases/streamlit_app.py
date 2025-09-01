@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 # 🌱 Load environment variables
 load_dotenv()
 # api_key = os.getenv("COHERE_API_KEY")
-api_key = st.secrets["COHERE_API_KEY"]
+api_key = st.secrets.get("COHERE_API_KEY") or os.getenv("COHERE_API_KEY")
 
 # 🔐 Validate API key
 if not api_key:
