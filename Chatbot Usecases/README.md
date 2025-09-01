@@ -28,3 +28,4 @@ A friendly, real-time chatbot built with [Streamlit](https://streamlit.io/) and 
    git clone https://github.com/yourusername/cohere-chatbot.git
    cd cohere-chatbot
 
+   ## Check 
