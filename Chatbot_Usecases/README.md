@@ -1,3 +1,12 @@
+---
+title: Cohere Chatbot
+emoji: 🤖
+colorFrom: indigo
+colorTo: blue
+sdk: streamlit
+app_file: streamlit_app.py
+---
+
 # 💬 Cohere Chatbot
 
 A friendly, real-time chatbot built with [Streamlit](https://streamlit.io/) and powered by [Cohere's](https://cohere.com/) large language models. This app supports persistent conversation history and is designed for easy deployment on Streamlit Share and Hugging Face Spaces.
